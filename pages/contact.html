@@ -1,27 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
 </head>
+
 <body>
     <header>
-    <nav>
-    <a href="../index.html">Home</a>
-    <a href="./about.html">about</a>
-    </nav>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="./about.html">about</a>
+        </nav>
     </header>
     <section>
         <h1>Reach Out to Me</h1>
         <p>
-            Have a question or want to connect with me? I'd love to hear from you! Feel free to send me a message or connect with me through my social links. 
+            Have a question or want to connect with me? I'd love to hear from you! Feel free to send me a message or
+            connect with me through my social links.
         </p>
-        
-        <a href="https://t.me/nehirmr" target="_blank">Telegram</a>
+        <h2>Contact Form</h2>
+        <form>
+            <label for="FullName">FullName</label>
+            <input type="text" id="FullName" placeholder="your name" required /><br>
+            <label for="Phone">Phone Number</label>
+            <input type="tel" id="Phone" placeholder="your number" /><br>
+            <p>Gender</p>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label><br>
 
-        <a href="https://github.com/laliselelisa1-dot" target="_blank">GitHub</a>
+
+
+            <p>What did you like about my website?</p>
+
+            <label for="easy">Easy to use</label>
+            <input type="checkbox" id="easy" name="feedback" value="easy" /><br>
+
+            <label for="design">Good design</label>
+            <input type="checkbox" id="design" name="feedback" value="design" /><br>
+
+            <label for="information">Helpful information</label>
+            <input type="checkbox" id="information" name="feedback" value="information" /><br>
+
+            <label for="satisfaction">Rate your satisfaction (0-10)</label>
+            <input type="range" id="satisfaction" name="satisfaction" min="0" max="10" value="5" /><br>
+
+            <button type="submit">submit</button>
+            <button type="button">click me</button>
+
+        </form>
     </section>
-    
+    <footer>
+        <p>Connect with me:</p>
+        <a href="https://t.me/nehirmr" title="Visit my Telegram" target="_blank">Telegram</a>
+
+        <a href="https://github.com/laliselelisa1-dot" title="Visit my GitHub" target="_blank">GitHub</a>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+    </footer>
+
+
 </body>
+
 </html>
