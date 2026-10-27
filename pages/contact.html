@@ -21,35 +21,55 @@
             connect with me through my social links.
         </p>
         <h2>Contact Form</h2>
+        <div>
         <form>
-            <label for="FullName">FullName</label>
-            <input type="text" id="FullName" placeholder="your name" required /><br>
-            <label for="Phone">Phone Number</label>
-            <input type="tel" id="Phone" placeholder="your number" /><br>
-            <p>Gender</p>
-            <input type="radio" id="male" name="gender" value="male" />
-            <label for="male">Male</label><br>
-            <input type="radio" id="female" name="gender" value="female" />
-            <label for="female">Female</label><br>
+<!-- Input field for the visitor's name -->
+<label for="FullName">Full Name</label>
+<input type="text" id="FullName" name="FullName" placeholder="Your name" required>
+<br>
 
+<label for="Phone">Phone Number</label>
+<input type="tel" id="Phone" name="Phone" placeholder="Your number">
+<br>
 
+<label for="age">Age</label>
+<input type="number" id="age" name="age" placeholder="age" required>
+<br>
 
-            <p>What did you like about my website?</p>
+<p>Gender</p>
 
-            <label for="easy">Easy to use</label>
-            <input type="checkbox" id="easy" name="feedback" value="easy" /><br>
+<label for="male">Male</label>
+<input type="radio" id="male" name="gender" value="male">
+<br>
 
-            <label for="design">Good design</label>
-            <input type="checkbox" id="design" name="feedback" value="design" /><br>
+<label for="female">Female</label>
+<input type="radio" id="female" name="gender" value="female">
+<br>
 
-            <label for="information">Helpful information</label>
-            <input type="checkbox" id="information" name="feedback" value="information" /><br>
+<!-- Checkboxes for selecting website feedback -->
+<p>What did you like about my website?</p>
 
-            <label for="satisfaction">Rate your satisfaction (0-10)</label>
-            <input type="range" id="satisfaction" name="satisfaction" min="0" max="10" value="5" /><br>
+<label for="easy">Easy to use</label>
+<input type="checkbox" id="easy" name="feedback" value="easy">
+<br>
 
-            <button type="submit">submit</button>
-            <button type="button">click me</button>
+<label for="design">Good design</label>
+<input type="checkbox" id="design" name="feedback" value="design">
+<br>
+
+<label for="information">Helpful information</label>
+<input type="checkbox" id="information" name="feedback" value="information">
+<br>
+
+<!-- Range input for selecting a satisfaction value -->
+<label for="satisfaction">Rate your satisfaction (0-10)</label>
+<input type="range" id="satisfaction" name="satisfaction" min="0" max="10" value="5">
+<br>
+
+<button type="submit">Submit</button>
+<button type="button">Click me</button>
+
+        </div>
 
         </form>
     </section>
